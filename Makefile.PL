@@ -1,12 +1,11 @@
 use inc::Module::Install;
 
 name            ('Acme-Tests');
-abstract        ('How much do you Know ?');
-author          ('Kang-min Liu <gugod@gugod.org>');
-license         ('perl');
-version_from    ('lib/Acme/Tests.pm');
-requires        ('Spiffy');
-requires        ('List::Util');
+all_from        ('lib/Acme/Tests.pm');
+requires        (
+    'Spiffy'     => 0.22,
+    'List::Util' => 0
+);
 build_requires  ('Test::More');
 
 &WriteAll;

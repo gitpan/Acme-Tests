@@ -1,10 +1,11 @@
 package Acme::Tests;
+use v5.8.0;
 use Spiffy -Base;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 NAME
 
-  Acme::Tests - How much do you know ?
+Acme::Tests - How much do you know ?
 
 =head1 SYNOPSIS
 

@@ -1,15 +1,17 @@
-name: Acme-Tests
-version: 0.01
-abstract: How much do you Know ?
-author: Kang-min Liu <gugod@gugod.org>
-license: perl
-distribution_type: module
+abstract: How much do you know ?
+author: Kang-min Liu <gugod@gugod.org>.
 build_requires:
   Test::More: 0
-requires:
-  Spiffy: 0
-  List::Util: 0
+distribution_type: module
+generated_by: Module::Install version 0.63
+license: perl
+name: Acme-Tests
 no_index:
   directory:
     - inc
-generated_by: Module::Install version 0.36
+    - t
+requires:
+  List::Util: 0
+  Spiffy: 0.22
+  perl: 5.8.0
+version: 0.02
