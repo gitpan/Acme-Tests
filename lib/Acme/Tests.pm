@@ -1,7 +1,7 @@
 package Acme::Tests;
 use v5.8.0;
 use Spiffy -Base;
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 =head1 NAME
 
@@ -25,7 +25,7 @@ So please help out providing a nice quailty test library!
 
 =head1 COPYRIGHT
 
-Copyright 2005 by Kang-min Liu <gugod@gugod.org>.
+Copyright 2005,2006 by Kang-min Liu <gugod@gugod.org>.
 
 This program is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

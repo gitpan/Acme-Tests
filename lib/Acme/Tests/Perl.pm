@@ -17,7 +17,7 @@ Which debugger does lwall use ?
   (4) printf
 Ans: 4
 ----
-What is the meaning of Pony in Perl6?
+What is the meaning of Ponie in Perl6?
   (1) The animal that eats carrot.
   (2) The codename of Perl6
   (3) The Perl 5 interpreter
@@ -31,7 +31,7 @@ Acme::Tests::Perl - Test you about Perl
 
 =head1 COPYRIGHT
 
-Copyright 2005 by Kang-min Liu <gugod@gugod.org>.
+Copyright 2005,2006 by Kang-min Liu <gugod@gugod.org>.
 
 This program is free software; you can redistribute it and/or
 modify it under the same terms as Perl itself.
